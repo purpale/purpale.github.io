@@ -21,3 +21,20 @@ class A {
     }
 }
 ```
+> [!TIP]
+> 自主练习
+
+```java
+public class Test_2505140400 {
+    public static void main(String[] args) {
+        System.out.println("我的学号是2505140400");
+        Info aa =new Info();
+        aa.print("我是辽宁警察学院学生");
+    }
+}
+class Info {
+    public void print(String s) {
+        System.out.println(s);
+    }
+}
+```

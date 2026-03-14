@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Chaos</title><link>https://purpale.github.io</link><description>混沌未分天地乱，茫茫渺渺无人见。</description><copyright>Chaos</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/108043805?v=4&amp;size=64</url><title>avatar</title><link>https://purpale.github.io</link></image><lastBuildDate>Sat, 14 Mar 2026 03:14:23 +0000</lastBuildDate><managingEditor>Chaos</managingEditor><ttl>60</ttl><webMaster>Chaos</webMaster><item><title>1_实验一：Java开发环境搭建</title><link>https://purpale.github.io/post/1_-shi-yan-yi-%EF%BC%9AJava-kai-fa-huan-jing-da-jian.html</link><description>[https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.msi](url)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Chaos</title><link>https://purpale.github.io</link><description>混沌未分天地乱，茫茫渺渺无人见。</description><copyright>Chaos</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/108043805?v=4&amp;size=64</url><title>avatar</title><link>https://purpale.github.io</link></image><lastBuildDate>Sat, 14 Mar 2026 03:23:57 +0000</lastBuildDate><managingEditor>Chaos</managingEditor><ttl>60</ttl><webMaster>Chaos</webMaster><item><title>1_实验一：Java开发环境搭建</title><link>https://purpale.github.io/post/1_-shi-yan-yi-%EF%BC%9AJava-kai-fa-huan-jing-da-jian.html</link><description>[https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.msi](url)
 
 ```java
 public class People {
@@ -22,7 +22,23 @@ class A {
     }
 }
 ```
-。</description><guid isPermaLink="true">https://purpale.github.io/post/1_-shi-yan-yi-%EF%BC%9AJava-kai-fa-huan-jing-da-jian.html</guid><pubDate>Sat, 14 Mar 2026 03:13:49 +0000</pubDate></item><item><title>cs</title><link>https://purpale.github.io/post/cs.html</link><description>&gt; [!NOTE]
+&gt; [!TIP]
+&gt; 自主练习
+
+```java
+public class Test_2505140400 {
+    public static void main(String[] args) {
+        System.out.println('我的学号是2505140400');
+        Info aa =new Info();
+        aa.print('我是辽宁警察学院学生');
+    }
+}
+class Info {
+    public void print(String s) {
+        System.out.println(s);
+    }
+}
+```。</description><guid isPermaLink="true">https://purpale.github.io/post/1_-shi-yan-yi-%EF%BC%9AJava-kai-fa-huan-jing-da-jian.html</guid><pubDate>Sat, 14 Mar 2026 03:13:49 +0000</pubDate></item><item><title>cs</title><link>https://purpale.github.io/post/cs.html</link><description>&gt; [!NOTE]
 &gt; Useful information that users should know, even when skimming content.
 
 &gt; [!TIP]
