@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>穿缝术</title><link>https://purpale.github.io</link><description>米西，米西，滑不拉几，如果你不拉几，我就不能米西。</description><copyright>穿缝术</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/108043805?s=400&amp;u=359f98140d117882372439954555e5ed1ab5b322&amp;v=4</url><title>avatar</title><link>https://purpale.github.io</link></image><lastBuildDate>Thu, 02 Apr 2026 04:36:40 +0000</lastBuildDate><managingEditor>穿缝术</managingEditor><ttl>60</ttl><webMaster>穿缝术</webMaster><item><title>export</title><link>https://purpale.github.io/post/export.html</link><description>```bash
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>穿缝术</title><link>https://purpale.github.io</link><description>米西，米西，滑不拉几，如果你不拉几，我就不能米西。</description><copyright>穿缝术</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/108043805?s=400&amp;u=359f98140d117882372439954555e5ed1ab5b322&amp;v=4</url><title>avatar</title><link>https://purpale.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 02:01:29 +0000</lastBuildDate><managingEditor>穿缝术</managingEditor><ttl>60</ttl><webMaster>穿缝术</webMaster><item><title>Tina_linux</title><link>https://purpale.github.io/post/Tina_linux.html</link><description>```bash
 export ARCH=arm
 export CROSS_COMPILE=arm-openwrt-linux-
 export PATH=$PATH:/home/purffy/tina-v853-open/prebuilt/rootfsbuilt/arm/toolchain-sunxi-musl-gcc-830/toolchain/bin
 export STAGING_DIR=./staging_dir
-```。</description><guid isPermaLink="true">https://purpale.github.io/post/export.html</guid><pubDate>Thu, 02 Apr 2026 04:36:11 +0000</pubDate></item><item><title>《Java程序设计 I》实验二：基本数据类型与数组</title><link>https://purpale.github.io/post/%E3%80%8AJava-cheng-xu-she-ji-%20I%E3%80%8B-shi-yan-er-%EF%BC%9A-ji-ben-shu-ju-lei-xing-yu-shu-zu.html</link><description>```java
+```
+
+```bash
+# 通过串口登录设备，执行以下命令
+echo '/etc/init.d/adbd start' &gt;&gt; /etc/init.d/rc.final
+chmod +x /etc/init.d/rc.final
+```。</description><guid isPermaLink="true">https://purpale.github.io/post/Tina_linux.html</guid><pubDate>Thu, 02 Apr 2026 04:36:11 +0000</pubDate></item><item><title>《Java程序设计 I》实验二：基本数据类型与数组</title><link>https://purpale.github.io/post/%E3%80%8AJava-cheng-xu-she-ji-%20I%E3%80%8B-shi-yan-er-%EF%BC%9A-ji-ben-shu-ju-lei-xing-yu-shu-zu.html</link><description>```java
 public class test1_wyc {
 	public static void main(String[] args) {
 		int a = (int)'我';
