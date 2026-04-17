@@ -1,5 +1,146 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>穿缝术</title><link>https://purpale.github.io</link><description>米西，米西，滑不拉几，如果你不拉几，我就不能米西。</description><copyright>穿缝术</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/108043805?s=400&amp;u=359f98140d117882372439954555e5ed1ab5b322&amp;v=4</url><title>avatar</title><link>https://purpale.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 02:01:29 +0000</lastBuildDate><managingEditor>穿缝术</managingEditor><ttl>60</ttl><webMaster>穿缝术</webMaster><item><title>Tina_linux</title><link>https://purpale.github.io/post/Tina_linux.html</link><description>```bash
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>穿缝术</title><link>https://purpale.github.io</link><description>米西，米西，滑不拉几，如果你不拉几，我就不能米西。</description><copyright>穿缝术</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/108043805?s=400&amp;u=359f98140d117882372439954555e5ed1ab5b322&amp;v=4</url><title>avatar</title><link>https://purpale.github.io</link></image><lastBuildDate>Fri, 17 Apr 2026 05:06:37 +0000</lastBuildDate><managingEditor>穿缝术</managingEditor><ttl>60</ttl><webMaster>穿缝术</webMaster><item><title>实验三：程序控制结构使用</title><link>https://purpale.github.io/post/shi-yan-san-%EF%BC%9A-cheng-xu-kong-zhi-jie-gou-shi-yong.html</link><description>```java
+import java.util.Scanner;
+
+public class Test1_jjj {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print('体重（单位：千克）： ');
+		double ti3zhong4 = scanner.nextDouble();
+		System.out.print('身高（单位：米）： ');
+		double shen1gao1 = scanner.nextDouble();
+		double bmi = ti3zhong4 / (shen1gao1 * shen1gao1);
+		System.out.println('bmi为： '+bmi);
+	}
+}
+```
+
+```java
+import java.util.Scanner;
+
+public class Test2_jjj {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		if(a&gt;=1000) {
+			System.out.println('输入的数&gt;=1000');
+		}
+		else{
+			System.out.println('输入的数&lt;1000');
+		}	
+	}
+}
+```
+
+```java
+import java.util.Scanner;
+
+public class Test3_jjj {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		int c = scanner.nextInt();
+		int t = 0;
+		if(b&lt;a) {
+			t=a;
+			a=b;
+			b=t;
+		}
+		if(c&lt;a) {
+			t=a;
+			a=c;
+			c=t;
+		}
+		if(c&lt;b) {
+			t=b;
+			b=c;
+			c=t;
+		}
+		System.out.println(a+' '+b+' '+c);
+	}
+}
+```
+
+```java
+import java.util.Scanner;
+
+public class Test4_jjj {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		switch(a) {
+			case 12:
+			case 1:
+			case 2:
+				System.out.println('冬季');
+				break;
+			case 3:
+			case 4:
+			case 5:
+				System.out.println('春季');
+				break;
+			case 6:
+			case 7:
+			case 8:
+				System.out.println('夏季');
+				break;
+			case 9:
+			case 10:
+			case 11:
+				System.out.println('秋季');
+				break;
+			default:
+				System.out.println('没有这个月份');
+				break;
+			
+		}
+		
+	}
+}
+```
+
+```java
+import java.util.Scanner;
+
+public class Test5_jjj {
+	public static void main(String[] args) {
+		int sum = 0;
+		Scanner scanner = new Scanner(System.in);
+
+		int a = scanner.nextInt();
+		for (int i = 1000000000;i&gt;=1;i=i/10){
+			System.out.println(a/i);
+			sum+=a/i;
+			a=a%i;
+			
+		}
+		System.out.println(sum);
+	}
+}
+
+```
+
+```java
+
+public class Test6_jjj {
+	public static void main(String args[]) {
+		String b = '';
+		for(int i=0;i&lt;6;i++) {
+			System.out.println(b=b+'*');
+		}
+		System.out.println();
+		
+		for(int i=0;i&lt;6;i++) {
+			for(int ii=0;ii&lt;9;ii++) {
+				System.out.print('*');
+			}
+			System.out.println();
+		}
+	}
+}
+```
+。</description><guid isPermaLink="true">https://purpale.github.io/post/shi-yan-san-%EF%BC%9A-cheng-xu-kong-zhi-jie-gou-shi-yong.html</guid><pubDate>Fri, 17 Apr 2026 05:06:05 +0000</pubDate></item><item><title>Tina_linux</title><link>https://purpale.github.io/post/Tina_linux.html</link><description>```bash
 export ARCH=arm
 export CROSS_COMPILE=arm-openwrt-linux-
 export PATH=$PATH:/home/purffy/tina-v853-open/prebuilt/rootfsbuilt/arm/toolchain-sunxi-musl-gcc-830/toolchain/bin
